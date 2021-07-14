@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+.homeContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    ".      contato  ."
+    "menu menu menu"
+    "footer footer footer";
+}
+
+.headerContainer{
+    grid-area: header;
+    background-color: blue;
+    height: 150px;
+}
+
+.contatoContainer{
+    grid-area: contato;
+    background-color: chartreuse;
+    height: 150px;
+}
+
+.menuContainer{
+    grid-area: menu;
+    background-color: chocolate;
+    height: 150px;
+}
+
+.footerContainer{
+    grid-area: footer;
+    background-color: crimson;
+    height: 50px;
+}
+

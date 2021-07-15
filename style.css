@@ -48,8 +48,8 @@ body{
     margin-top: 20px;
 }
 .containerImg{
-    width: 100%;
-    min-width: 300px;
+    width: 90%;
+    min-width: 150px;
     height: auto;
     grid-area: "img";
 }
@@ -169,6 +169,9 @@ body{
     .headerContainer{
         display: block;
         flex-direction: column;
+    }
+    .containerImg{
+        display: none;
     }
 }
 @media(max-width: 600px){

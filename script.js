@@ -10,7 +10,7 @@ document.getElementById('botao').addEventListener('click', function() {
     setTimeout( function() {
         let mensagem = "Você se cadastrou com sucesso!";
         msgAlert.innerText = mensagem;
-      }, 5000 );
+    }, 3000 );
     
     
     document.getElementById('email').value='';

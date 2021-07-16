@@ -6,7 +6,7 @@ body, h1, p, a, img, ul{
     font-family: Opens sans-serif;
 }
 body{
-    background: linear-gradient(90deg, rgba(142,191,36,1) 0%, rgba(242,176,53,1) 50%, rgba(242,80,65,1) 100%);
+    background: linear-gradient(103deg, rgba(142,191,36,1) 0%, rgba(242,176,53,1) 37%, rgba(242,80,65,1) 100%);
     color: rgb(0, 0, 0);
 }
 input, textarea { 
